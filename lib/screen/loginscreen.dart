@@ -121,7 +121,7 @@ class _LoginscreenState extends State<Loginscreen> {
                       MaterialPageRoute(builder: (context) => Bottom()),
                     );
                   } else {
-                    print("${validate(email.text, Password.text)}");
+                    
                     ScaffoldMessenger.of(context).showSnackBar(
                       SnackBar(content: Text("User or Password Incorrect")),
                     );
