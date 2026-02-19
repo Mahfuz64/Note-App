@@ -1,5 +1,5 @@
 class info{
-  List <Map<String,dynamic>> notedata=[
+ static List <Map<String,dynamic>> notedata=[
   {
     "id": "001",
     "title": "Grocery List",
@@ -16,4 +16,5 @@ class info{
     "text": "Pick up the dry cleaning before 6:00 PM on Friday."
   }
 ];
+static List <Map<String,dynamic>>trash=[];
 }
